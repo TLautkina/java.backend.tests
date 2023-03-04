@@ -1,0 +1,71 @@
+[Scia Reto](https://sciareto.org) mind map   
+> __version__=`1.1`,showJumps=`true`
+---
+
+# Root topic
+
+## GetProductsListTest
+> leftSide=`true`
+
+
+### get 200 OK for all products list
+
+## GetCatergoryTest
+
+### get 200 OK for product list by category ID
+
+### get 404 for category ID = 0
+
+### get 404 for category ID more than exists
+
+## GetProductTest
+> leftSide=`true`
+
+
+### get 200 OK for product by ID
+
+### get 404 for product ID  = 0
+> leftSide=`true`
+
+
+### get 404 for product ID that more than exists
+> leftSide=`true`
+
+
+### get 404 for negative product ID
+> leftSide=`true`
+
+
+## EditProductTest
+
+### editProductWithSpecificIdTest
+
+#### get 200 OK for edit existing product
+
+#### check product title for edited product
+
+#### check new price for edited product
+
+## CreateProductTest
+> leftSide=`true`
+
+
+### createNewProductTest
+
+#### get 201 for new product created
+
+#### check if category title is good for new product
+
+#### check if product title is good for new product
+
+#### check if price is ok for new product
+
+### createNewProductWithIdErrorTest
+
+#### get 400 for new product with specific ID
+
+## DeleteProductTest
+
+### deleteProductWithSpecificIdTest
+
+#### check that product deleted by ID
